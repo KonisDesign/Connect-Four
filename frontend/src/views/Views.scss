@@ -1,0 +1,8 @@
+.board-container {
+    width: calc(80px * 7);
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
