@@ -1,3 +1,50 @@
 button {
     cursor: pointer;
 }
+
+.play-button {
+    width: calc((100% / 7) - 10px);
+    aspect-ratio: 1/1;
+    border: none;
+    border-radius: 50%;
+    background-color: transparent;
+}
+
+.r:hover {
+    background-color: red;
+}
+
+.y:hover {
+    background-color: yellow;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+input {
+    width: 300px;
+    height: auto;
+    padding: 10px 0px;
+    border: 2px solid #7561CF;
+    border-radius: 15px;
+    background-color: transparent;
+    color: #fff;
+    outline: none;
+    font-size: 22px;
+    text-align: center;
+}
+
+.primary-button {
+    width: 300px;
+    height: auto;
+    padding: 13px 20px;
+    border: none;
+    border-radius: 15px;
+    background-color: #7561CF;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: 900;
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+}

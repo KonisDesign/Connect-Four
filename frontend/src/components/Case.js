@@ -7,7 +7,7 @@ export default function Case(props) {
         <>
             {props.board.map((item, index) => (
                 <div key={index} className='case'>
-                    <div className={item === 'r' ? 'case-round red' : 'case-round'}></div>
+                    <div className={item === 'r' ? 'case-round red' : item === 'y' ? 'case-round yellow' : item === 'rw' ? 'case-round red win' : item === 'yw' ? 'case-round yellow win' : 'case-round'}></div>
                 </div>
             ))}
         </>
